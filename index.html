@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlirezaAbbasi</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/a3ef115a85.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <img src="./A (3).png" class="logo">
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <span>Alireza</span><br>Abbasi From Toronto</h1>
+        </div>
+    </div>
+ </div>
+ <!-- ------------about-------------- -->
+ <div id="about">
+    <div class="container">
+ 
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./ketab.jpg">
+                <!-- <img src="./alireza3.JPG"> -->
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A passionate Full Stack Developer with 
+                    an insatiable curiosity for creating 
+                    cutting-edge solutions.
+                     Fresh from Seneca Polytechnic, I bring
+                      a dynamic blend of theoretical knowledge
+                       and hands-on experience, totaling over a
+                        year in the world of web development.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front End Development</span><br>Creating visually appealing and user-friendly web/app interfaces through proficient use of HTML, CSS, JavaScript, and React.</li>
+                        <li><span>Back End Development</span><br>Implementing robust back-end solutions, incorporating relational databases with SQL and managing NoSQL databases, particularly MongoDB.</li>
+                        <!-- <li><span>P</span><br>Buliding Android/ios apps</li> -->
+                        <li><span>Programming Languages:</span><br>Fluent in a diverse range of programming languages, including C, C++, C#, JavaScript, and Java, enabling versatile and effective development across various platforms and applications.</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Buliding Android/ios apps</li>
+                    </ul>
+
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Ontario Diploma</span><br>Computer Programming Seneca College <br> 01/2022 – 09/2023</li>
+                        <li><span>Master of Science</span><br>Control Systems Engineering  IAU <br>09/2014 - 09/2016</li>
+                        <li><span>Bachelor of Science </span><br>Electrial Engineering(Control Systems) IAU <br>09/2007 – 08/2012</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+ </div> 
+ <!-- ---------------services--------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Responsive and Visually Engaging Websites</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Intuitive User Interfaces and User Experiences</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Crafting Engaging and Functional Mobile Applications</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+
+    </div>
+ </div>
+ <!-- -------------portfolio------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="./socialmedia.jpg">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+
+        </div>
+        <div class="work">
+            <img src="./musicapp2.jpg">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./onlineshoppingapp.jpg">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./mobile.jpg">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+
+        </div>
+        <!-- <div class="work">
+            <img src="./work-2.avif">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./work-3.jpg">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./work-1.jpg">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+
+        </div> -->
+        <!-- <div class="work">
+            <img src="./work-2.avif">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+         -->
+        
+    </div>
+    <a href="#" class="btn ">See more</a>
+ </div>
+
+ <!-- -------------contact--------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <!-- <p><i class="fa-solid fa-paper-plane"></i>  contact@example.com</p> -->
+                <p><i class="fa-solid fa-envelope"></i>alireza.edu88@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>@aliabbasi88 (Telegram Voice Call)</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/alirezaabbasi1/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/AlirezaAbb?tab=overview&from=2023-12-01&to=2023-12-31"><i class="fa-brands fa-github"></i></a>
+                    <!-- <a href="https://www.linkedin.com/in/alirezaabbasi1/"><i class="fa-brands fa-twitter-square"></i></a> -->
+                    <!-- <a href="https://www.linkedin.com/in/alirezaabbasi1/"><i class="fa-brands fa-instagram"></i></a> -->
+                    
+                </div>
+                <a href="./AlirezaAbbasi_Resume2.pdf"  download class="btn btn2" >Download CV</a>
+            </div>
+        </div>
+    </div>
+    <!-- ------------copyright-------- -->
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i> 2024 Alireza Abbasi. All rights reserved.</p>
+    </div>
+ </div>
+ 
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    // var tablinks = document.getElementsByClassName("tab-links ");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+ </script>
+
+ <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbymE_t5IkpKwCY5NRYfPcRY7ziOWul49sC7Ah6j2pCE74A4ibEJiVsF1iaqcgWQOT0U/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
